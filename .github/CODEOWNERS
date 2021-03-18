@@ -1,0 +1,10 @@
+# See https://help.github.com/articles/about-codeowners/ for valid syntax for entries.
+# Default owners for everything in the repo, unless a later match takes precedence
+
+# Phoenix owns the files under blacklist thingies
+/KURUMIBOT/modules/blacklistusers.py @A_lonleyPerson
+/KURUMIBOT/modules/sql/blacklistusers_sql.py @A_lonleyPerson
+#pep8-ing the code doesn't change maker
+/KURUMIBOT/modules/paste.py @A_lonleyPerson
+/KURUMIBOT/modules/speed_test.py @A_lonleyPerson
+
