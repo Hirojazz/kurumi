@@ -25,7 +25,7 @@ REMEMBER: Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hirojazz/Kurumi.git)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hirojazz/KURUMIBOT.git)
 
 </details>  
 <details>
@@ -49,7 +49,7 @@ defaults set in the sample_config, hence making it easier to upgrade.
 
 An example `config.py` file could be:
 ```
-from SungJinwooRobot.sample_config import Config
+from KURUMIBOT.sample_config import Config
 
 class Development(Config):
     OWNER_ID = 254318997  # your telegram ID
@@ -135,7 +135,7 @@ All that is needed is that your .py file is in the modules folder.
 
 To add commands, make sure to import the dispatcher via
 
-`from SungJinwooRobot import dispatcher`.
+`from KURUMIBOT import dispatcher`.
 
 You can then add commands using the usual
 
@@ -155,7 +155,7 @@ through the `/stats` command, which is only available to the bot owner.
 
 Once you've set up your database and your configuration is complete, simply run the bat file(if on windows) or run (Linux):
 
-`python3 -m SungJinwooRobot`
+`python3 -m KURUMIBOT`
 
 You can use [nssm](https://nssm.cc/usage) to install the bot as service on windows and set it to restart on /gitpull 
 Make sure to edit the start and restart bats to your needs. 
@@ -165,10 +165,10 @@ Note: the restart bat requires that User account control be disabled.
 ## How to setup on Heroku 
 For starters click on this button 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hirojazz/Kurumi.git) 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hirojazz/KURUMIBOT.git) 
 
 
 ## Credits
-The bot is based on the original work done by [Hirojazz](https://github.com/Hiro) also futher development done by KURUMI Chan creator.
+The bot is based on the original work done by [Hirojazz](https://github.com/Hirojazz) also futher development done by KURUMI Chan creator.
 This repo was just revamped to suit an Anime-centric community. All original credits go to Paul and his dedication, Without his efforts, this fork would not have been possible!
 
