@@ -16,6 +16,6 @@ start-3.6.bat
 kangsticker.png
 venv
 env
-KURUMI.session-journal
+KURUMIBOT.session-journal
 updates.txt
 *.exe
