@@ -16,9 +16,9 @@ FILENAME = __name__.rsplit(".", 1)[-1]
 # If module is due to be loaded, then setup all the magical handlers
 if is_module_loaded(FILENAME):
 
-    from SungJinwooRobot.modules.helper_funcs.chat_status import (
+    from KURUMIBOT.modules.helper_funcs.chat_status import (
         connection_status, is_user_admin, user_admin)
-    from SungJinwooRobot.modules.sql import disable_sql as sql
+    from KURUMIBOT.modules.sql import disable_sql as sql
     from telegram.ext.dispatcher import run_async
 
     DISABLE_CMDS = []
