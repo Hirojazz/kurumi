@@ -4,7 +4,7 @@ import os
 
 
 def get_user_list(config, key):
-    with open('{}/SungJinwooRobot/{}'.format(os.getcwd(), config),
+    with open('{}/KURUMIBOT/{}'.format(os.getcwd(), config),
               'r') as json_file:
         return json.load(json_file)[key]
 
