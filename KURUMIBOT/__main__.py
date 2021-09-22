@@ -56,7 +56,7 @@ I am an Anime themed group management bot. I will use my angel Zafkiel and prote
 """
 
 HELP_STRINGS = """
-KURUMI is here! 
+Ram is here! 
 I Use My Powers To Help Admins To Manage Their Groups! 
 *Main* commands available :
  • /help: PM's you this message.
@@ -69,8 +69,8 @@ For all command use / [or](https://telegra.ph/file/b1b545eb4877b012eac82.png) !
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\nKindly use ! for commands if / is not working\n")
 
-TOKISAKI_IMG = "https://telegra.ph/file/99bbcc3b8564804dc2ab0.jpg"
-KURUMI_IMG = "https://telegra.ph/file/e1d87ec2bdac4e3cfe0a4.mp4"
+TOKISAKI_IMG = "https://telegra.ph/file/bbc9ad02b330c0601dc42.jpg"
+KURUMI_IMG = "https://telegra.ph/file/bbc9ad02b330c0601dc42.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Click here to donate in [Paypal](https://www.paypal.me/zameeljaz)"""
@@ -206,12 +206,12 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="🔔 Updates of KURUMI 🔔",
-                             url="https://t.me/hiroiscool")
+                             url="https://t.me/ram_updates")
                     ], 
                      [
                          InlineKeyboardButton(
                              text="📳 Anime Chat Group 📳",
-                             url="https://t.me/WeebXWorld")
+                             url="https://t.me/The_A_RANK")
                     ]]))
                      
                     
